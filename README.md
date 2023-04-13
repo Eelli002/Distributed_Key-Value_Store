@@ -7,6 +7,8 @@ A simple distributed key-value store should have the following components:
 - A replication strategy to ensure fault tolerance
 - A simple client API for basic CRUD operations
 
+![High Level Design](images/Distributed%20Key-Value%20Store%20HLD.jpg)
+
 Here's a summary of the proposed architecture:
 
 1. Load Balancer: Distributes incoming requests to Request Managers for efficient handling and load distribution.
